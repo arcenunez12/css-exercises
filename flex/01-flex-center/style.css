@@ -3,6 +3,12 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  /* Make the display to be flex */
+  display: flex;
+  /* Justify content in the center of the main axis */
+  justify-content: center;
+  /* Align items in the center of the cross axis  */
+  align-items: center;
 }
 
 .box {
@@ -12,5 +18,4 @@
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
-  align-items: center;
 }
