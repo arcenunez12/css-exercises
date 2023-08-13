@@ -5,9 +5,9 @@
   height: 300px;
   /* Make the display to be flex */
   display: flex;
-  /* Justify content in the center of the main axis */
+  /* Justify content in the center of the main axis. */
   justify-content: center;
-  /* Align items in the center of the cross axis  */
+  /* Align items in the center of the cross axis.  */
   align-items: center;
 }
 
