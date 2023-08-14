@@ -1,6 +1,14 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  /* Make the display flex. */
+  display: flex;
+  /* Use space-between to distribute items evenly. */
+  justify-content: space-between;
+  /* Items are positioned at the center of the container. */
+  align-items: center;
+  /* Add some padding */
+  padding: 20px;
 }
 
 .logo {
@@ -14,6 +22,13 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  /* Make the display flex */
+  display: flex;
+  /* Add a bit of a gap b/t the elements */
+  gap: 9px;
+  /* Set margin and padding to 0 */
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -23,3 +38,4 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
