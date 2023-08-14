@@ -19,7 +19,7 @@ body {
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
   width: 48px;
-  height: 48px;
+  height:  48px;
 }
 
 .logo {
@@ -45,4 +45,35 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+.header {
+  /* border: red 5px solid; */
+  /* Use display flex */
+  display: flex;
+  /* Justify the content in the header to be space between.
+  The items are evenly distributed within the alignment container along the main axis. 
+  The spacing between each pair of adjacent items is the same. 
+  The first item is flush with the main-start edge, 
+  and the last item is flush with the main-end edge. */
+  justify-content: space-between;
+  /* 8px space b/t everything and the edge of the header */
+  padding: 8px;
+}
+
+ul {
+  /* Use display flex */
+  display: flex;
+  margin: 0;
+  padding: 0;
+  /* 16x gap b/t each item on both sides of the header */
+  gap: 16px;
+}
+
+.left, .right {
+  display: flex;
+  /* border: green 5px solid; */
+  /* Center the items within the border box (green) */
+  align-items: center;
+  gap: 16px;
 }
